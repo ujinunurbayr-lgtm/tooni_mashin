@@ -1,0 +1,65 @@
+.tii {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 850px;
+  background-color: rgb(226, 199, 214);
+  border-radius: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+.tom1 {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+  flex-direction: column;
+  width: 530px;
+  height: 180px;
+  background-color: rgb(142, 140, 141);
+  border-radius: 80px;
+}
+.tom2 {
+  width: 530px;
+  height: 520px;
+  background-color: rgb(199, 147, 179);
+  border-radius: 80px;
+  padding-top: 2vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 80px);
+  gap: 28px;
+}
+.too:nth-child(17) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-radius: 50px;
+}
+
+button {
+  /* border: none; */
+  background-color: rgb(200, 129, 166);
+  border-radius: 100%;
+  border: 2px solid rgb(196, 127, 164);
+  gap: 5px;
+  display: flex;
+  height: 85px;
+  /* justify-content: center;
+  align-items: center; */
+}
+.too {
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
